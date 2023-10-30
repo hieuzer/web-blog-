@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Hieu - Personal Blog Website</title>
+    <meta name="title" content="Wren - Perosonal Blog Website">
+    <meta name="description" content="This is a blog html made by Hieu">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="../../assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="../../assets/images/pattern-2.svg">
+    <link rel="preload" as="image" href="../../assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+                <div style="font-size: larger;">Hieu's Blog</div>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+                    </li>
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>About</a>
+                    </li>
+
+                </ul>
+
+                <p class="copyright-text">
+                    Copyright 2023 © Hieu - Personal Blog Template.
+                    Developed by Hieu
+                </p>
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="hero" id="home" aria-label="home">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">Hello Everyone!</p>
+
+                        <h1 class="headline headline-1 section-title">
+                            I’m <span class="span">Hieu</span>
+                        </h1>
+                    </div>
+
+                    <div class="hero-banner">
+
+                        <img src="../../assets/images/pattern-2.svg" width="27" height="26" alt="shape"
+                            class="shape shape-1">
+
+                        <img src="../../assets/images/pattern-3.svg" width="27" height="26" alt="shape"
+                            class="shape shape-2">
+
+                    </div>
+
+                    <img src="../../assets/images/shadow-1.svg" width="500" height="800" alt=""
+                        class="hero-bg hero-bg-1">
+
+                    <img src="../../assets/images/shadow-2.svg" width="500" height="500" alt=""
+                        class="hero-bg hero-bg-2">
+
+                </div>
+            </section>
+
+
+            <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+                <div class="container">
+
+                    <div class="post-main">
+
+                        <h2 class="headline headline-2 section-title">
+                            <span class="span">
+                              The salmon mindset to investing</span>
+                        </h2>
+                        
+                        <p>When mentioning the life cycle of a salmon, people often tie its association with the story of a hardworking mentality and aversion against all odds. And an essential aspect of that story is the contrarian mindset of the trout. Salmon is a type of fish that migrates to the ocean from freshwater rivers and then back to their natal streams. To get back to their natal stream, a typical salmon has to traverse a long-winded and challenging path, constantly swimming upstream with waterfalls that exert immense pressure along with currents several times larger than the salmon’s size. The trout’s ultimate goal is to sustain the next generation of salmon, and what better place to secure that goal than its original birthplace.</p>
+                        <p>But how does the migration story of a salmon relate to how we invest? Something that is emphasized in the story is the contrarian mindset. Often, when it comes to a typical person, when they “invest”, their goals are to find the kind of stocks that can generate as much money as possible in the future, often tied in with short-term revenue. Coupled with limited expertise, it’s safe to say that investors rely a lot on market trends, analyst recommendations, and popular opinion when making investment decisions. Especially when we consider the stock market, information is the key to good investments and a headstart over other investors and traders. And in the information age, it’s not easy to conceal information since every drop of it is considered a valuable resource, leading to continuous information cascades.</p>
+                        <p>An informational cascade occurs when individuals rely on the decisions or opinions of others rather than their own information, leading to a snowball effect of actions or beliefs. For example, if investors observe others buying a particular stock, they may assume that those investors have more information and follow suit, regardless of their own analysis. Informational cascades can lead to herding behavior and create market inefficiencies by causing investors to make decisions based on the actions of others rather than their own independent analysis. This can result in overvalued or undervalued assets and increased market volatility.</p>
+                        <p>And this is where contrarian investors step in. Contrarian investors, in stark contrast to the majority, approach the market from an unconventional perspective. They understand that markets can be influenced by emotions, irrational exuberance, and herd behavior, leading to mispriced assets and distorted market valuations. Instead of blindly following the crowd, contrarians actively seek out opportunities where others may fear to tread.</p>
+                        <p>At the heart of the contrarian philosophy lies the recognition that markets are not always efficient and investor sentiment can swing to extremes. While the masses chase after popular stocks and ride the waves of euphoria or despair, contrarians step back and question prevailing narratives. They are not affected by short-term market trends or influenced by the fear and greed that often permeate the investment landscape.</p>
+                        <p>Contrarian investors rely on deep research, analysis, and a strong understanding of the underlying fundamentals of an investment. They look for discrepancies between a company's intrinsic value and its current market price, seeking out opportunities where pessimism or optimism has led to an overreaction by the market. By identifying such situations, contrarians can position themselves to take advantage of the eventual market correction. This is best summed up by a quote from a famous contrarian thinker, Warren Buffet: “Be fearful when others are greedy, and greedy when others are fearful.”</p>
+                        <p>The contrarian mindset extends beyond individual stock selection. It can also be applied to broader market trends and economic cycles. Contrarians actively seek opportunities in sectors or industries that are currently out of favor, believing that the market tends to overreact to both positive and negative news. By going against the prevailing sentiment, they position themselves to benefit from the eventual market reassessment and the subsequent rebound of undervalued assets.</p>
+                        <p>It might seem like a risky move for some, as you’re trying to swim upstream against the constant pressure of the crowd and the market. You also have to believe in your view as a contrarian, which requires patience and discipline as investments may take months or even years to materialize. Such criteria would sway much of the crowd, as the purpose of investing for the majority of them is to obtain a significant amount of money as soon as possible. However, in a highly complex market with perpetual uncertainty, sustainability and consistency are the keys to success.</p>
+                        <p>Just like a salmon has to stick to its goal in the face of rigorous challenges, with a contrarian mindset, investors have to be willing to endure short-term volatility and stick to their convictions, even when faced with skepticism or criticism from the crowd. A salmon believes in and sticks to its ultimate purpose, and the energy depleted and the hardships they endure contribute to the securement of future sustainability. True investment success lies in the ability to maintain a long-term perspective and avoid succumbing to the pressures of short-term thinking. “If you aren't willing to own a stock for 10 years, don't even think about owning it for 10 minutes." - Warren Buffet.</p>
+                        
+                        <nav aria-label="pagination" class="pagination">
+
+
+                            
+                            <div >
+                                <p style="font-weight: bold;">Previous</p>
+                                <a href="../post2/post1.html" class="pagination-btn" aria-label="previous page" >
+                                    <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                            <!-- <a href="#" class="pagination-btn">1</a>
+                            <a href="#" class="pagination-btn">2</a>
+                            <a href="#" class="pagination-btn">3</a> -->
+                            <!-- <a href="#" class="pagination-btn" aria-label="more page">...</a> -->
+                            <div>
+                                <p style="font-weight: bold;">Next</p>
+                                <a href="../post4/post1.html" class="pagination-btn" aria-label="next page">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+
+
+                        </nav>
+
+                    </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer>
+        <div class="container">
+
+            <div class="card footer">
+
+                <div class="section footer-top">
+
+                    <div class="footer-list">
+
+                        <p class="footer-list-title">Newsletter</p>
+
+                        <p class="footer-text">
+                            Sign up to be first to receive the latest stories inspiring us, case studies, and industry
+                            news.
+                        </p>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Your name" required class="input-field"
+                                autocomplete="off">
+
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <input type="email" name="email_address" placeholder="Emaill address" required
+                                class="input-field" autocomplete="off">
+
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="span">Get Notification</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+
+                    <p class="copyright">
+                        &copy; Developed by <a href="#" class="copyright-link">Hieu</a>
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+
+                                <span class="span">Twitter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+
+                                <span class="span">LinkedIn</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+
+                                <span class="span">Instagram</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+
+    <script src="../../assets/js/script.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

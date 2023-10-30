@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Hieu - Personal Blog Website</title>
+    <meta name="title" content="Wren - Perosonal Blog Website">
+    <meta name="description" content="This is a blog html made by Hieu">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="../../assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="../../assets/images/pattern-2.svg">
+    <link rel="preload" as="image" href="../../assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+                <div style="font-size: larger;">Hieu's Blog</div>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+                    </li>
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>About</a>
+                    </li>
+
+                </ul>
+
+                <p class="copyright-text">
+                    Copyright 2023 © Hieu - Personal Blog Template.
+                    Developed by Hieu
+                </p>
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="hero" id="home" aria-label="home">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">Hello Everyone!</p>
+
+                        <h1 class="headline headline-1 section-title">
+                            I’m <span class="span">Hieu</span>
+                        </h1>
+                    </div>
+
+                    <div class="hero-banner">
+
+                        <img src="../../assets/images/pattern-2.svg" width="27" height="26" alt="shape"
+                            class="shape shape-1">
+
+                        <img src="../../assets/images/pattern-3.svg" width="27" height="26" alt="shape"
+                            class="shape shape-2">
+
+                    </div>
+
+                    <img src="../../assets/images/shadow-1.svg" width="500" height="800" alt=""
+                        class="hero-bg hero-bg-1">
+
+                    <img src="../../assets/images/shadow-2.svg" width="500" height="500" alt=""
+                        class="hero-bg hero-bg-2">
+
+                </div>
+            </section>
+
+
+            <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+                <div class="container">
+
+                    <div class="post-main">
+
+                        <h2 class="headline headline-2 section-title">
+                            <span class="span">
+                              Behaviorial inertia: An extensive view</span>
+                        </h2>
+                        <p>Picture yourself strolling through a dense forest, where the absence of a clear trail adds an element of adventure. As you navigate through the wilderness, a faint, narrow path catches your eye. It is a well-trodden route, forged by countless individuals over time. Naturally, you find yourself drawn to this established path—it's the easiest and most familiar way to go. This path, reminiscent of behavioral inertia, symbolizes the comfort of routines and habits deeply ingrained within us. Like the forest path, it requires minimal effort to navigate, becoming our default course of action—the path of least resistance.
+                        </p>
+                        <p>Behavioral inertia, often associated with the status quo bias, encapsulates the tendency to cling to our existing ways. While not inherently wrong, these habits can impede innovation and adaptation. In the chaotic environment of the stock market, where stability is highly sought after, it is natural to gravitate towards the familiar path. After all, if a particular strategy yields satisfying outcomes, why stray from it?
+                        </p>
+                        <h3>Real-Life Example: The Dot-com Bubble</h3>
+                        <p>Let's take a moment to reflect on the dot-com bubble of the late 1990s—an era when investors, including myself, were captivated by the allure of technology stocks. Driven by the promise of exponential growth and the fear of missing out, we became deeply entrenched in the habit of investing heavily in this sector. Despite mounting evidence of overvaluation and unsustainable market conditions, we clung stubbornly to our established strategies. Sadly, when the bubble burst, we experienced significant losses due to our inability to break free from behavioral inertia.</p>
+                        <h3>Confirmation Bias and the Flaws of Human Reasoning:</h3>
+                        <p>At the heart of perpetuating behavioral inertia lies confirmation bias—a cognitive inclination to seek information that confirms our existing beliefs, while conveniently ignoring contradictory evidence. It is a deeply ingrained bias rooted in our desire to protect our identities and maintain consistency in our beliefs.</p>
+                        <h3>Real-Life Example: The Power of Identity in Investing</h3>
+                        <p>In the realm of investing, our personal identities play a substantial role in shaping our decision-making process. We often rely on historical statistics and performance, projecting our identities onto specific investing styles. It is comforting to align our choices with the crowd, finding validation in the prevailing sentiment, and reinforcing our preconceived notions and biases. This phenomenon, known as the herding mentality, subtly influences our actions.</p>
+                        <p>In the ever-changing and complex stock market environment, where information is like a precious currency, we are compelled to conduct extensive research. Yet, the scarcity of information and the overwhelming amount of data push us to establish habits that simplify the decision-making process. We seek shortcuts, drawing from personal experiences and heuristic techniques to make sense of the market's intricacies</p>
+                        <h3>Real-Life Example: Limited Information and Herding Behavior</h3>
+                        <p>During times of market uncertainty—be it economic downturns or geopolitical events—limited information exacerbates our tendency to engage in herding behavior. The fear of being left behind or making suboptimal choices propels us to align with the prevailing sentiment. Unfortunately, this perpetuates the herd mentality, impeding our ability to make independent and informed decisions.
+                        </p>
+                        <h3>Overcoming Behavioral Inertia and Bias:</h3>
+                        <p>To triumph over behavioral inertia and biases in investment decision-making, we must foster vigilance and engage in critical evaluation of our personal assessments and projections. Recognizing the inherent flaws in human reasoning and the influence of confirmation bias is paramount. We should actively seek diverse perspectives, challenge our own beliefs, and continually update our knowledge base to adapt to the ever-evolving market landscape.</p>
+                        <p>Behavioral inertia, with its alluring path of least resistance, can shape our investment decisions, both for better and worse. While it helps slow down the accumulation of unintended consequences and preserves ideas that have proven effective, it can also hinder innovation and adaptation. The fear of change and the allure of the familiar often hold us back, but in the face of uncertainty, we must embrace the unknown and chart new paths.</p>
+                        <p>As investors, we find solace in information, recognizing its value as a key currency in our trading and investing endeavors. However, we must acknowledge that information is limited and scarce, akin to finite resources. In our quest for knowledge, we often find comfort in established routines and the formation of habits. But we must remain aware that such habits breed biases, influencing our decision-making process.
+                        </p>
+                        <p>By unraveling the complexities of behavioral inertia, we can navigate the stock market's challenges with greater clarity and adaptability. Let us embrace change, challenge our biases, and embark on a personal journey of growth and prosperity in the ever-evolving world of investment decision-making.
+                        </p>
+                        <nav aria-label="pagination" class="pagination">
+
+
+                            
+                            <div >
+                                <p style="font-weight: bold;">Previous</p>
+                                <a href="../post8/post1.html" class="pagination-btn" aria-label="previous page" >
+                                    <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                            <!-- <a href="#" class="pagination-btn">1</a>
+                            <a href="#" class="pagination-btn">2</a>
+                            <a href="#" class="pagination-btn">3</a> -->
+                            <!-- <a href="#" class="pagination-btn" aria-label="more page">...</a> -->
+                            <div>
+                                <p style="font-weight: bold;">Next</p>
+                                <a href="../post10/post1.html" class="pagination-btn" aria-label="next page">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+
+
+                        </nav>
+
+                    </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer>
+        <div class="container">
+
+            <div class="card footer">
+
+                <div class="section footer-top">
+
+                    <div class="footer-list">
+
+                        <p class="footer-list-title">Newsletter</p>
+
+                        <p class="footer-text">
+                            Sign up to be first to receive the latest stories inspiring us, case studies, and industry
+                            news.
+                        </p>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Your name" required class="input-field"
+                                autocomplete="off">
+
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <input type="email" name="email_address" placeholder="Emaill address" required
+                                class="input-field" autocomplete="off">
+
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="span">Get Notification</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+
+                    <p class="copyright">
+                        &copy; Developed by <a href="#" class="copyright-link">Hieu</a>
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+
+                                <span class="span">Twitter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+
+                                <span class="span">LinkedIn</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+
+                                <span class="span">Instagram</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+
+    <script src="../../assets/js/script.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Hieu - Personal Blog Website</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html made by Hieu">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../../assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="../../assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="../../assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+        <div style="font-size: larger;">Hieu's Blog</div>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>About</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright-text">
+          Copyright 2023 © Hieu - Personal Blog Template.
+          Developed by Hieu
+        </p>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Hieu</span>
+            </h1>
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="../../assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="../../assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="../../assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="../../assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h1 class="headline headline-2 section-title">
+              <span class="span">
+
+                Risk management in a different scope </span>
+            </h1>
+            <h2>Introduction</h2>
+            <h3>General introduction:</h3>
+            <p>Risk management plays a crucial role in organizations, helping them identify, assess, and mitigate potential risks. The traditional view of risk management has long emphasized a quantitative approach, considering risk as the uncertainty associated with potential losses or negative outcomes. This approach relies heavily on historical data analysis and quantitative models to quantify the probability and severity of risks. While the traditional view provides a structured framework, it has certain loopholes, such as overreliance on historical data, incomplete risk models, neglect of non-quantifiable risks, neglect of human factors, inflexibility in dynamic environments, and limited stakeholder involvement.</p>
+            <p>In this paper, we explore the potential of heuristics to address these loopholes and enhance traditional risk management practices. Heuristics are mental shortcuts or rules of thumb that help decision-makers simplify complex problems and make judgments or decisions quickly. By incorporating heuristics into risk management processes, organizations can overcome the limitations of the traditional approach and improve their ability to manage risks effectively.</p>
+            <h3>Literature Review</h3>
+            <h4>
+              A. Overview of traditional management 
+              </h4>
+              <h5>I. Definition and perception of risk </h5>
+              <p>The traditional view of risk management emphasizes a quantitative approach to defining and perceiving risk. This view considers risk as the uncertainty associated with potential losses or negative outcomes (1). Within the traditional view, risk is perceived as a combination of two key elements: probability and severity.</p>
+              <h6>1. Probability:</h6>
+              <p>Probability refers to the likelihood or chance of a specific event or outcome occurring. In risk management, probability is used to quantify the likelihood of potential risks materializing. It helps assess the frequency with which certain circumstances happen and their potential impact on organizational objectives.</p>
+              <p>Probability is often estimated based on historical data analysis and statistical techniques. By analyzing past occurrences of similar events, risk managers can identify patterns and trends that can inform the estimation of probabilities for future events. This quantitative approach allows for a more objective assessment of risk likelihood.</p>
+              <p>Risk managers may use various methods to express probability, such as percentages, odds, or frequencies. For example, a probability of 0.20 (or 20%) represents a one-in-five chance of the event occurring. Understanding the probability associated with a particular risk allows risk managers to prioritize and allocate resources accordingly.</p>
+              <h6>2. Severity:</h6>
+              <p>Severity refers to the potential impact or magnitude of the loss or negative outcome that may result from a specific risk event. It assesses the potential harm, damage, or consequences associated with the occurrence of an adverse event.
+                In risk management, severity is often measured in terms of financial impact, operational disruption, reputational damage, or any other relevant metric. By quantifying severity, risk managers can prioritize risks based on their potential impact on organizational objectives and allocate resources effectively.
+                </p>
+                <p>Severity is typically evaluated using historical data and quantitative analysis. Risk managers can analyze past occurrences to estimate the potential magnitude of losses or damages associated with specific risks. This analysis helps in understanding the worst-case scenarios and enables risk managers to develop appropriate risk mitigation strategies.</p>
+                <h5>II. The traditional view on risk management</h5>
+                <p>The traditional view of risk management emphasizes a systematic and comprehensive approach to identifying, assessing, and mitigating risks within financial institutions. Risk management is described as the process of identifying, analyzing, and managing potential risks that an organization may face. Risk managers use a scientific approach, using math and statistics to measure and evaluate financial products and portfolios. `In traditional risk management, historical data and quantitative models are recognized as the two crucial components that form the foundation of risk analysis and mitigation strategies.</p>
+                <h6>1. Historical Data Analysis: </h6>
+                <p>In the traditional approach to analyzing risk, historical data plays a fundamental role as a valuable source of information. It is used to identify patterns, trends, and relationships in past events or market behavior, which can be extrapolated to estimate future outcomes and the likelihood of specific risks occurring. By examining historical data, analysts can calculate statistical measures such as volatility, correlations, and probabilities to quantify the potential impact of risks on financial assets or portfolios. This approach assumes that historical patterns and relationships will continue to hold in the future, allowing for more informed decision-making and risk-management strategies.</p>
+                <p>Historical data is also widely mentioned for its use in developing and validating quantitative models. It serves as input for model calibration and parameter estimation, enabling risk managers to simulate potential outcomes and assess the impact of different risk scenarios. It also validates the accuracy and reliability of the models by comparing model predictions with observed historical data.</p>
+                <h6>2. Quantitative Models:</h6>
+                <p>The role of a quantitative model is to provide a structured and quantitative framework for assessing, measuring, and managing risks.
+                  Quantitative models are designed to capture and analyze the complex relationships and interactions among various risk factors. These models use mathematical and statistical techniques to process historical data, identify patterns, and make projections about future risks. They provide a systematic approach to analyzing risks by quantifying the potential impact and likelihood of adverse events.
+              </p>
+              <p>The underlying meaning of a quantitative model in this context is to provide a rigorous and objective methodology for risk analysis. By using quantitative models, risk managers aim to remove subjectivity and biases from the risk assessment process and replace them with quantitative metrics and calculations. This allows for a more consistent and standardized evaluation of risks across different portfolios, assets, or financial institutions.</p>
+              <h5>III. Laying out the process of risk management:</h5>
+              <p> The first step in traditional risk management is risk identification. This involves systematically identifying and documenting potential risks that may pose a threat to the organization's operations, assets, or strategic goals (Lam, 2003). Risks can arise from various sources, such as operational processes, regulatory changes, market fluctuations, credit defaults, or technological disruptions (Crouhy, Galai, and Mark, 2006). The traditional view emphasizes the importance of conducting thorough risk assessments to ensure that all potential risks are considered and addressed.
+              </p>
+              <p>Once risks are identified, the next step is risk assessment. Risk assessment involves analyzing and evaluating the identified risks regarding their potential impact and likelihood of occurrence (Hull and White, 2014). The traditional view recognizes the need for a structured approach to risk assessment, which often involves the use of historical data, quantitative models, and expert judgment (Crouhy, Galai, and Mark, 2006). By quantifying risks, organizations can prioritize them based on their severity and allocate resources accordingly.</p>
+              <p> Following the risk assessment, the traditional approach focuses on risk mitigation. Risk mitigation strategies aim to reduce the likelihood or impact of identified risks. This can involve implementing controls, establishing contingency plans, diversifying portfolios, hedging against financial risks, or purchasing insurance coverage (Lam, 2003). The traditional view emphasizes a proactive approach to risk management, aiming to prevent or minimize potential negative outcomes.</p>
+              <p>Risk monitoring and reporting are integral components of traditional risk management. Regular monitoring allows organizations to track changes in the risk landscape, evaluate the effectiveness of risk mitigation strategies, and identify emerging risks (COSO, 2017). By continuously monitoring risks, organizations can make informed decisions and take timely actions to address potential threats. Effective risk reporting facilitates communication with stakeholders, including senior management, boards of directors, employees, and regulators, providing them with transparent and relevant information about the organization's risk profiles, trends, and mitigation efforts (Hull and White, 2014).</p>
+              <p>Risk communication is a critical aspect of traditional risk management. Clear and concise communication ensures that stakeholders have a shared understanding of risks and their potential impact. This includes communicating risk assessment results, mitigation strategies, and any updates or changes to the risk landscape (COSO, 2017). Risk communication fosters transparency, promotes risk-aware decision-making, and cultivates a risk-aware culture within the organization.</p>
+              <p> Finally, traditional risk management emphasizes the need for continuous improvement. This involves reviewing and updating risk management frameworks to adapt to changing environments, emerging risks, and regulatory requirements (Hull and White, 2014). By incorporating lessons learned from past experiences and industry best practices, organizations can enhance their risk management capabilities and respond effectively to new challenges (Miller, 2018).</p>
+              <h5>IV. Loopholes within the traditional view</h5>
+              <p>While the traditional view of risk management and decision-making provides a structured framework for organizations, it is important to acknowledge the existence of certain loopholes or limitations within this approach. </p>
+              <h6>1. Overreliance on Historical Data:</h6>
+              <p>The traditional view heavily relies on historical data to assess risks and make decisions. However, this approach may not adequately capture emerging risks or unforeseen events. In rapidly changing environments, historical data may not accurately reflect the current risk landscape, leading to potential blind spots and inadequate risk assessments. Kleindorfer (2008) examines the challenges posed by fundamental uncertainty to supply chain risk management. He highlights the limitations of traditional risk management strategies, which often rely on historical data and probabilistic models.</p>
+              <h6>2. Incomplete Risk Models and limited focus on Non-Quantifiable Risks:</h6>
+              <p>While risk models provide valuable insights, they are based on assumptions and simplifications. In reality, risks can be complex and interconnected, making it challenging to capture all factors in a single model. This challenges the reliability and effectiveness of traditional risk management models and techniques.</p>
+              <p>Zeckhauser (2010) argues that traditional risk management approaches often assume a known and stable probability distribution for risks. However, in situations of fundamental uncertainty, such as rare events or systemic shocks, the underlying probability distribution may be unknown or constantly changing. Therefore, overreliance on specific risk models can result in overlooking important aspects and failing to fully understand the true nature of risks.</p>
+              <p>The traditional view tends to prioritize quantifiable risks, such as market fluctuations or credit defaults, which can be measured and analyzed using quantitative methods. However, non-quantifiable risks, such as reputational risks, regulatory risks, or behavioral biases, are equally important but harder to quantify. Ignoring these risks can lead to significant consequences for organizations.</p>
+              <p>Mandelbrot and Taleb (2010) and Makridakis and Taleb (2009) explore the concept of fat-tailed distributions and black swan events, which are characterized by extreme and rare occurrences. These events, often considered outliers in traditional risk models, can have a disproportionate impact on investments and risk management strategies. They argue that the traditional focus on average risk measures and normal distributions fails to adequately account for these tail events, leading to underestimation of risks and potential financial losses.</p>
+              <h6>3. Neglecting Human Factors:</h6>
+              <p> The traditional view often overlooks the influence of human behavior and cognitive biases on risk management and decision-making. People may exhibit biases, such as overconfidence, anchoring, or herd mentality, which can skew risk assessments and lead to suboptimal decisions. Failing to account for these biases can undermine the effectiveness of risk management processes.</p>
+              <h6>4. Inflexibility in Dynamic Environments:</h6>
+              <p> The traditional view tends to adopt a static approach to risk management, assuming a stable and predictable environment. However, in dynamic and rapidly evolving contexts, risks can change rapidly, requiring agile and adaptive risk management strategies. Rigid risk management frameworks may struggle to address new risks or respond effectively to unexpected events.</p>
+              <h6>5. Lack of Stakeholder Involvement:</h6>
+              <p>Traditional risk management often focuses on top-down decision-making, where risk assessments and mitigation strategies are primarily driven by senior management. This approach may limit the involvement and input of other stakeholders, such as front-line employees or external partners who possess valuable insights and expertise. Excluding these perspectives can lead to incomplete risk assessments and missed opportunities for innovative risk management strategies.</p>
+              <h5>V. How uses of heuristics can fix these loopholes</h5>
+              <p>Zeckhauser introduced the story of David Ricardo, who made a fortune buying British government bonds on the eve of the Battle of Waterloo. He did not have any military expertise and could not predict the outcome of the battle, but he knew that the seller was eager and that his windfall pounds should Napoleon lose would be worth much more than the pounds he'd lose should Napoleon win. Ricardo's investment decision was based on his understanding of the market and his ability to identify a good bet. Ricardo used a heuristic, specifically the recognition heuristic, to evaluate his investment. Without the need to calculate the probabilities of the outcomes, he simplified the event to a bet, making it easier to evaluate the situation, and recognized that it was a good investment. One thing to note about the story of Ricardo is that he made his decision under uncertainty, without knowledge about the outcome of the battle. There is a distinction between risk and uncertainty. Risk is defined as a situation where the probabilities of different outcomes are known, while uncertainty involves unspecifiable sets of outcomes or unknown probabilities associated with them. It is within the environment of uncertainty that heuristics can be effective:</p>
+              <h6>1. Addressing Limited Historical Data:</h6>
+              <p>Heuristics can be used to fill in the gaps when historical data is limited or unavailable. Instead of relying solely on historical data, decision-makers can employ heuristics such as the availability heuristic or the representativeness heuristic. These heuristics allow decision-makers to make judgments based on readily available information or by comparing current situations to similar past experiences, even when extensive historical data is lacking.</p>
+              <h6>2. Enhancing Risk Models:</h6>
+              <p>Heuristics can be used to complement quantitative risk models by incorporating qualitative factors that are difficult to quantify. Decision-makers can use heuristics such as the expert judgment heuristic or the analogical reasoning heuristic to incorporate insights from domain experts or draw analogies from similar situations. This helps to capture non-quantifiable risks and enrich the risk assessment process.
+                The simplicity of heuristics is also an advantage in uncertain situations, as it avoids the fine-tuning of parameters that can cause large estimation errors under changing environmental conditions. 
+        </p>
+        <h6>3. Mitigating Cognitive Biases:</h6>
+        <p>Heuristics can help address cognitive biases that may influence risk assessments and decision-making. Biases such as overconfidence, confirmation bias, or anchoring can lead to inaccurate risk assessments and flawed decisions. By being aware of these biases and employing heuristics like the debiasing heuristic or the diversification heuristic, decision-makers can counteract the negative effects of biases and improve the quality of risk assessments and decisions.</p>
+        <h6>4. Adaptability in Dynamic Environments:</h6>
+        <p>Heuristics provide decision-makers with flexible mental frameworks that can be quickly applied in dynamic and uncertain situations. The recognition heuristic or the satisficing heuristic, for example, can help decision-makers make reasonably satisfactory decisions in situations where time is limited, and the information is incomplete or changing rapidly.         It's possible that utilizing heuristics will result in bad decisions. These choices, however, will be made very quickly. In many cases, the decision-making's loss in quality is compensated for by its speed. The reason for this is that quick choices are required in the stock market. Investors risk missing out on some of the best buying opportunities available if they spend too much time contemplating and evaluating their choices. Therefore, heuristics promote adaptability and agility in decision-making, allowing organizations to respond effectively to emerging risks and changing environments.</p>
+        <h6>5. Encouraging Stakeholder Involvement: </h6>
+        <p>Heuristics can facilitate collaborative decision-making by involving a broader range of stakeholders. For instance, heuristics like the collective intelligence heuristic or the consensus heuristic enable decision-makers to aggregate and incorporate diverse perspectives and expertise from different stakeholders. This inclusiveness can lead to more comprehensive risk assessments and better-informed decisions.</p>
+        <h2>Methodology and Data</h2>
+        <h3>Data source and filtered data: </h3>
+        <p>- Monthly stock price data from CRSP (Center for Research in Security Prices) from January 1996 until December 2021</p>
+        <p>- Stocks that are part of the S&P500 in a given month are kept; as a footnote: the list of S&P500 constituents comes from https://github.com/fja05680/sp500
+        </p>
+        <p>- The whole data set has 20569 unique stocks and covers 311 months</p>
+        <p>*Note: The code merges the ‘df’ data frame with the ‘sp’ data frame based on the "date" column using an inner join. The resulting merged data frame (‘df’) will only contain rows where the "date" values are common between the two data frames.</p>
+        <p>The ‘sp’ data frame is derived from the "sp500_historical.txt" file and represents the composition of the S&P 500 index. However, it's important to note that the composition of the S&P 500 index can change over time due to corporate actions, such as mergers, acquisitions, bankruptcies, or companies being added or removed from the index.
+        </p>
+        <p>The ‘sp’ data frame, as generated by the code, selects the last daily observation for each month by grouping the data by year and month and then taking the last row of each group. This grouping and selection process may result in a varying number of companies for each month, depending on the changes in the S&P 500 composition.</p>
+        <h3>Methodology:</h3>
+        <p>- Goal: Compare the performance of the S&P500 to the performance of alternative portfolios constructed using different heuristics
+        </p>
+        <p>- List of heuristics: the choice of heuristics is guided by Mousavi and Gigerenzer (2014)</p>
+        <p>1/N rule: allocate resources equally across all stocks (in contrast to the S&P500, which weights stock by market capitalization) → especially if some stocks may experience tail risks, this strategy could be beneficial</p>
+        <p>Take the best/recognition heuristic: only invest in 50 largest stocks → assumes that the best stocks are the biggest/most well-known stocks</p>
+        <p>Satisficing: don’t invest in stocks with large stock price declines → to avoid large declines in portfolio values, it suffices to not invest in any stocks that experience large declines; to proxy if a stock may experience a large decline or not, we consider its past returns</p>
+        <p>Take the best/recognition heuristic: only invest in stocks with highest trading volume → potentially addresses liquidity risk</p>
+        <h4>Implementation of heuristics: </h4>
+        <p> In each month, select the subset of stocks from the S&P 500 that satisfies the relevant criteria of the heuristic.</p>
+        <h4>Invest in the index:</h4>
+        <p>This heuristic suggests investing the entire portfolio in the index, representing a passive investment strategy.</p>
+        <p>It assumes that the index provides a diversified representation of the market and aims to capture the overall market performance.</p>
+        <h4>1/N rule: equal weights to all stocks:</h4>
+        <p>This heuristic assigns equal weights to all stocks in the portfolio.</p>
+        <p>It assumes that all stocks have an equal contribution to the portfolio's performance.</p>
+        <p>Each stock's weight is calculated as the inverse of the total number of stocks.</p>
+        <h4>Only invest in the largest stocks by market capitalization:</h4>
+        <p>This heuristic selects a subset of stocks based on their market capitalization.
+          It assumes that larger companies may offer more stability and better growth prospects.
+          Stocks are ranked based on their market capitalization, and only the top-ranked stocks are included in the portfolio.
+          </p>
+        <h4>Don't invest in stocks with large price declines:</h4>
+        <p>This heuristic aims to avoid stocks with significant price declines, which may indicate poor performance or negative trends.
+          It monitors the price changes of each stock and flags those with substantial declines.
+          Stocks that experience large declines are excluded from the portfolio, allowing for a limited number of falls.
+          </p>
+          <h4>Only invest in stocks with the highest trading volume:</h4>
+          <p>This heuristic selects stocks with the highest trading volume for investment.
+            It assumes that stocks with high trading volume attract more attention and may offer better liquidity.
+            </p>
+            <p>Stocks are ranked based on their average trading volume, and only the top-ranked stocks are included in the portfolio.</p>
+            <p>For each portfolio, we compute the hypothetical portfolio price over time and estimate month-over-month returns for the 1996-2021 sample period. This sample includes several large stock price declines, including the dot-com bubble, the Lehman Brothers collapse, and the COVID crisis.</p>
+            <h4>Evaluation criteria</h4>
+            <p>Average Return: This criterion measures the average rate of return generated by each investment strategy. It calculates the average percentage return of the portfolio over the specified time period.</p>
+            <p>Volatility: Volatility refers to the degree of fluctuation or variability in the portfolio's returns. It measures the standard deviation of the portfolio's returns, indicating the extent to which the portfolio's performance deviates from its average return.</p>
+            <p>Maximum Drawdown: Maximum drawdown represents the largest percentage decline from a peak value to a subsequent low point in the portfolio's value. It measures the largest loss experienced by the portfolio during a specified period.</p>
+            <p>Largest Monthly Loss: This criterion identifies the largest negative monthly return experienced by the portfolio. It represents the worst-performing month in terms of investment losses.
+              Largest Monthly Gain: The largest monthly gain measures the highest positive monthly return achieved by the portfolio during the specified time period.
+              </p>
+          <h2>Results and Discussion</h2>
+          <table>
+            <tr>
+              <td>Satistics</td>
+              <td>Index Investing</td>
+              <td>1/N rule</td>
+              <td>Recognition Heuristic
+                (50 largest stocks)
+                </td>
+              <td>Satisficing </td>
+              <td>Recognition Heuristic
+                (stocks with highest trading volume)
+                </td>
+            </tr>
+            <tr>
+              <td>Average return</td>
+              <td>0.6936</td>
+              <td>0.4982</td>
+              <td>0.7795
+                </td>
+              <td>0.7622 </td>
+              <td>0.4102
+                </td>
+            </tr>
+            <tr>
+              <td>Volatility </td>
+              <td>5.2531</td>
+              <td>4.7227</td>
+              <td>6.2125
+                </td>
+              <td>5.3713 </td>
+              <td>7.9091
+                </td>
+            </tr>
+            <tr>
+              <td>Maximum Drawdown</td>
+              <td>-37.8743</td>
+              <td>-46.1652</td>
+              <td>-38.4796
+                </td>
+              <td>-47.2445 </td>
+              <td>-45.9722
+                </td>
+            </tr>
+            <tr>
+              <td>Largest Monthly Loss</td>
+              <td>-17.3288</td>
+              <td>-24.237</td>
+              <td>-29.2992
+                </td>
+              <td>-21.3975 </td>
+              <td>-61.5465
+                </td>
+            </tr>
+            <tr>
+              <td>Largest Monthly Gain</td>
+              <td>20.9453</td>
+              <td>12.4649</td>
+              <td>23.916
+                </td>
+              <td>17.06</td>
+              <td>28.9458
+                </td>
+            </tr>
+          </table>
+          <h3>Description of the results:</h3>
+          <p>Index Investing: The average monthly return for this strategy is 0.69%, which is in line with the market portfolio. The volatility, represented by the standard deviation of 5.25%, is also similar to that of the market. The maximum drawdown of -37.9% indicates the largest decline experienced during the observed period. The largest loss and gain were -17.3% and 20.9%, respectively, showcasing this strategy's potential downside risk and upside opportunities.</p>
+          <p>1/N rule (Equal weights to all stocks): This strategy exhibits a slightly lower average monthly return of 0.50% compared to the market. The volatility, measured by the standard deviation of 4.72%, is relatively lower than the market's. However, it is important to note that the maximum drawdown is deeper at -46.2%, indicating a larger decline in portfolio value during unfavorable market conditions. The largest loss is also higher at -24.2%, while the largest gain is lower at 12.5%.</p>
+          <p>Recognition Heuristic (50 largest stocks): This strategy achieves a higher average monthly return of 0.78% compared to the market. However, it comes with increased volatility, as reflected by the standard deviation of 6.21%. The maximum drawdown is at -38.5%, indicating a substantial decline in portfolio value during the observed period. The largest loss is deeper at -29.3%, while the largest gain is higher at 23.9%.</p>
+          <p>Satisficing (Avoid stocks with large stock price declines): This strategy yields an average monthly return of 0.76%, outperforming the market. However, the volatility is relatively high, with a standard deviation of 5.37%. The maximum drawdown of -47.2% is the deepest among all strategies, highlighting the potential downside risk. The largest loss is at -21.4%, while the largest gain is at 17.1%.</p>
+          <p>Recognition Heuristic (Stocks with the highest trading volume): This strategy demonstrates the lowest average monthly return of 0.41% compared to the market and other strategies. It also has the highest volatility, with a standard deviation of 7.91%. The maximum drawdown of -45.97% suggests a significant decline in portfolio value during unfavorable market conditions. The largest loss is the highest among all strategies at -61.5%, while the largest gain is at 28.9%.</p>
+          <h3>Limitations:</h3>
+          <p>Lack of Specialization in the Environment: The strategies evaluated in the study may have been tested in a relatively generic or simplified market environment. Real-world financial markets can be highly specialized and complex, influenced by various factors specific to different sectors, industries, or regions. The strategies' performance in a more specialized environment might differ significantly from the study's findings, limiting their generalizability.</p>
+          <p>Exploitation of Heuristics: If investors are already aware of these heuristic strategies and actively utilizing them, any potential excess profits they offer may have already been exploited. As more investors adopt these strategies, their impact on the market may diminish, reducing the opportunities for sustained outperformance. The strategies' effectiveness can be influenced by market participants' behavior and the level of information asymmetry in the market.</p>
+          <p>Historical Data Bias: The study's findings are based on historical data, and there is a risk of data bias. Past performance does not guarantee future results, and the performance of these heuristic strategies might not persist in the future. The strategies might have performed well in the historical period analyzed but could encounter different market conditions or structural changes that affect their performance going forward.</p>
+          <p>Transaction Costs and Implementation Challenges: The study may not have fully accounted for transaction costs, such as brokerage fees, bid-ask spreads, and market impact costs. These costs can erode the profitability of trading strategies, especially for high-frequency or short-term strategies. Additionally, implementing and maintaining the strategies in a real-world setting could pose practical challenges, such as liquidity constraints, trading restrictions, and market frictions.</p>
+          <p>Sample and Data Availability: The study's findings are based on a specific sample period and dataset. Different time periods or alternative datasets might yield different results. The availability and quality of data can also introduce limitations or biases in the analysis, affecting the robustness and reliability of the conclusions.</p>
+          <h3>Conditions in which heuristics can be effective:</h3>
+          <p> According to Mousavi and Gigerenzer(2014), heuristics can be effective under uncertainty if they satisfy the criteria for being ecologically rational. Ecological rationality refers to the idea that heuristics are adapted to the structure of the environment in which they are used. In other words, heuristics are effective when they are tailored to the specific context in which they are applied.</p>
+          <h4>Limited Information or Time Constraints: </h4>
+          <p>When decision-makers face limited information or time constraints, heuristics can serve as efficient decision-making tools. Instead of conducting extensive research or analysis, heuristics allow decision-makers to rely on readily available information or mental shortcuts to make quick and satisfactory decisions (Zeckhauser, 2010; Gigerenzer, Todd, & the ABC Research Group, 1999).</p>
+          <h4>Familiar and Routine Situations:</h4>
+          <p>Heuristics are effective in situations where decision-makers have familiarity and experience. In such cases, heuristics can draw upon past experiences and patterns to guide decision-making, allowing individuals to rely on their intuition and expertise (Zeckhauser, 2010; Gigerenzer, Todd, & the ABC Research Group, 1999).</p>
+          <h4>Non-Critical or Low-Stakes Decisions: </h4>
+          <p>Heuristics can be appropriate for non-critical or low-stakes decisions where the potential consequences are not severe. In these situations, the use of heuristics can provide sufficient decision quality without the need for in-depth analysis or complex decision-making processes (Zeckhauser, 2010).</p>
+          <h4>Stable and Predictable Environments: </h4>
+          <p>Heuristics are well-suited for stable and predictable environments where historical patterns and regularities can guide decision-making. In such contexts, heuristics can help decision-makers make reasonable predictions and judgments based on past observations and established rules of thumb (Zeckhauser, 2010; Gigerenzer, Todd, & the ABC Research Group, 1999).</p>
+          <h4>Complementary Role to Analytical Methods: </h4>
+          <p>Heuristics can be effectively used in conjunction with analytical methods. While analytical models provide systematic and rigorous analysis, heuristics can supplement them by capturing additional insights, incorporating qualitative factors, or considering behavioral aspects that may not be fully captured by analytical approaches alone (Zeckhauser, 2010; Gigerenzer, Todd, & the ABC Research Group, 1999).</p>
+          <h2>Conclusion</h2>
+          <p> In this research paper, we discuss the traditional view of risk management, focusing on the definition and perception of risk, as well as the role of probability and severity in risk assessment. We explored the traditional approach to risk management, including historical data analysis and the use of quantitative models. The paper also outlined the process of risk management, from risk identification to continuous improvement. While highlighting loopholes within the traditional view, such as overreliance on historical data, limited focus on non-quantifiable risks, neglect of human factors, inflexibility in dynamic environments, and lack of stakeholder involvement.</p>
+          <p>To address these limitations, we proposed the use of heuristics as a means to fill gaps in limited historical data, enhance risk models by incorporating qualitative factors, mitigate cognitive biases, adapt to dynamic environments, and encourage stakeholder involvement. Heuristics such as the availability heuristic, representativeness heuristic, expert judgment heuristic, analogical reasoning heuristic, debiasing heuristic, diversification heuristic, recognition heuristic, and satisficing heuristic were discussed in relation to their potential to improve risk assessment and decision-making.</p>
+          <p>The paper presented the methodology and data used for the empirical analysis, including the source and filtering of monthly stock price data from the Center for Research in Security Prices (CRSP) and the selection of stocks that are part of the S&P 500 index. The goal of the analysis was to compare the performance of the S&P 500 to alternative portfolios constructed using different heuristics.</p>
+          <p> Future research could employ longitudinal designs to examine the long-term effects of social media usage on mental health. This would provide insights into the causal relationship and how these effects may change over time.</p>
+          <p> Secondly, exploring the mediating and moderating factors in the relationship between social media usage and mental health would enhance our understanding. Investigating the role of self-esteem, social support, or offline social interactions as potential mediators or moderators could provide valuable insights. Additionally, conducting cross-cultural studies would allow for a better understanding of how social media usage and its impact on mental health vary across different cultural contexts. This would help identify cultural factors that may influence the relationship.
+          </p>  
+          <p> Furthermore, exploring the potential benefits of social media usage on mental health is an area that warrants further research. Investigating how social media can be utilized as a positive tool for social support, self-expression, or mental health promotion could provide valuable insights.</p>
+          
+          <nav aria-label="pagination" class="pagination">
+
+
+
+
+              <div>
+                <p style="font-weight: bold;">Previous</p>
+                <a href="../post5/post1.html" class="pagination-btn" aria-label="previous page">
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <!-- <a href="#" class="pagination-btn">1</a>
+                            <a href="#" class="pagination-btn">2</a>
+                            <a href="#" class="pagination-btn">3</a> -->
+              <!-- <a href="#" class="pagination-btn" aria-label="more page">...</a> -->
+              <div>
+                <p style="font-weight: bold;">Next</p>
+                <a href="../post7/post1.html" class="pagination-btn" aria-label="next page">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+
+            </nav>
+
+          </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry
+              news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Get Notification</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Hieu</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+
+  <script src="../../assets/js/script.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

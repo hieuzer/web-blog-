@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Hieu - Personal Blog Website</title>
+    <meta name="title" content="Wren - Perosonal Blog Website">
+    <meta name="description" content="This is a blog html made by Hieu">
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="../../assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="../../assets/images/pattern-2.svg">
+    <link rel="preload" as="image" href="../../assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+                <div style="font-size: larger;">Hieu's Blog</div>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+                    </li>
+
+                    <li>
+                        <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link hover-1" data-nav-toggler>About</a>
+                    </li>
+
+                </ul>
+
+                <p class="copyright-text">
+                    Copyright 2023 © Hieu - Personal Blog Template.
+                    Developed by Hieu
+                </p>
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <article>
+
+            <!-- 
+        - #HERO
+      -->
+
+            <section class="hero" id="home" aria-label="home">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">Hello Everyone!</p>
+
+                        <h1 class="headline headline-1 section-title">
+                            I’m <span class="span">Hieu</span>
+                        </h1>
+                    </div>
+
+                    <div class="hero-banner">
+
+                        <img src="../../assets/images/pattern-2.svg" width="27" height="26" alt="shape"
+                            class="shape shape-1">
+
+                        <img src="../../assets/images/pattern-3.svg" width="27" height="26" alt="shape"
+                            class="shape shape-2">
+
+                    </div>
+
+                    <img src="../../assets/images/shadow-1.svg" width="500" height="800" alt=""
+                        class="hero-bg hero-bg-1">
+
+                    <img src="../../assets/images/shadow-2.svg" width="500" height="500" alt=""
+                        class="hero-bg hero-bg-2">
+
+                </div>
+            </section>
+
+
+            <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+                <div class="container">
+
+                    <div class="post-main">
+
+                        <h2 class="headline headline-2 section-title">
+                            <span class="span">Unlocking the Power of Interdisciplinary Risk Management: A Comprehensive
+                                Exploration</span>
+                        </h2>
+                        <p>In the grand tapestry of human existence,
+                            risk is the unrelenting companion that shapes our decisions,
+                            defines our actions, and ultimately molds our future.
+                            Yet, what precisely is risk, and how do we begin to fathom its intricate web?
+                            At its essence, risk is the harbinger of uncertainty,
+                            the shadow of harm that looms over our every endeavor.
+                            It is the possibility, the lurking unpredictability
+                            that things might not transpire as we envision or desire.
+                            To traverse the labyrinthine realm of risk management effectively,
+                            we must first decipher the diverse types that exist.</p>
+                        <h3>Part 1: The Definition and Types of Risk That Exist</h3>
+                        <p>Risk, though a seemingly universal concept, branches into various forms,
+                            each manifesting its unique characteristics and implications.
+                            However, at its core, risk can be classified into two main categories:</p>
+                        <p>1. Objective Risk: This type of risk, often dubbed "measurable risk,"
+                            is rooted in quantifiable data and concrete facts.
+                            Objective risk can be assessed, analyzed,
+                            and mitigated using statistical methods and mathematical models.
+                            Examples include financial risk, environmental risk, and health risk.</p>
+                        <p>Financial Risk: In the realm of finance,
+                            objective risk takes center stage.
+                            It encompasses a spectrum of uncertainties related to financial outcomes,
+                            encompassing investment risks, credit risks, liquidity risks, and market risks.
+                            Financial experts deploy tools like Value at Risk (VaR)
+                            to evaluate the potential impact of financial events,
+                            enabling them to make informed decisions aimed at safeguarding assets and investments.</p>
+                        <p>Environmental Risk: Environmental scientists grapple with objective risk tied to the
+                            environment.
+                            This includes the uncertainty surrounding pollution, climate change, natural disasters,
+                            and the overall health of ecosystems. Environmental risk assessment involves complex
+                            modeling and
+                            data analysis to predict potential environmental impacts,
+                            guiding policy decisions and advocating for sustainable practices.</p>
+                        <p>Health Risk: In healthcare, objective risk is intrinsically linked to patient well-being,
+                            medical procedures, and pharmaceutical interventions. Healthcare professionals employ
+                            evidence-based medicine and data-driven insights to minimize risks related to misdiagnosis,
+                            medical errors, surgical complications, and adverse drug reactions. Stringent protocols
+                            and quality standards enhance patient safety and the overall quality of healthcare delivery.
+                        </p>
+                        <p>2. Subjective Risk: Unlike its objective counterpart,
+                            subjective risk is deeply intertwined with human perception, judgment, and emotions.
+                            It's the realm of risk assessment where individual beliefs, biases, and attitudes
+                            play a substantial role. Subjective risk often encompasses psychological, behavioral,
+                            and social factors.
+                            Examples include behavioral risk, ethical risk, and communication risk.</p>
+                        <p>Behavioral Risk: The human psyche conceals a realm of risk decision-making influenced by
+                            cognitive biases and emotional responses. Psychologists delve into this intricate terrain,
+                            unraveling the subtleties of human behavior under conditions of uncertainty.
+                            Understanding these psychological factors provides insights into the behavioral
+                            risks entwined within various contexts,
+                            guiding risk communication strategies and decision-making processes.</p>
+                        <p>Ethical Risk: Ethical risks encapsulate potential reputational damage and ethical dilemmas.
+                            Ethicists assume the responsibility of assessing ethical risks and guiding organizations
+                            in navigating the complex waters of ethical decision-making.
+                            They safeguard reputations and foster responsible conduct.</p>
+                        <p>Communication Risk: In the world of risk management, effective communication is of paramount
+                            importance.
+                            Communication experts and crisis managers specialize in designing strategies to convey
+                            risks comprehensibly and transparently, particularly during crises.
+                            Their goal is to ensure clarity and maintain public perception during risk events.</p>
+                        <p>Now that we've embarked on a journey to understand the different types of risk,
+                            let's navigate Part 2, where we explore
+                            how these risks manifest and are detected differently across various fields and disciplines.
+                        </p>
+                        <h3>Part 2: How Different Risks Are Detected and Exist Differently in Different Fields</h3>
+                        <p>As we journey through the complex landscape of risk management,
+                            we discover that risks are not monolithic entities.
+                            Instead, they assume distinct forms and identities as they traverse various fields and
+                            disciplines.
+                            The identification and management of risks are profoundly influenced by the unique
+                            characteristics
+                            and nuances of each domain.
+                            Let's embark on an exploration of how these risks manifest uniquely in different contexts:
+                        </p>
+
+                        <p>Finance: Within the realm of finance, risk revolves around economic conditions,
+                            market dynamics, and investment strategies. Financial analysts and experts use historical
+                            data,
+                            statistical models, and extensive market research to predict potential fluctuations and
+                            manage risk effectively. They scrutinize variables such as interest rates,
+                            inflation, and geopolitical events to make informed decisions.</p>
+                        <p>Engineering: The world of engineering is a fertile ground for risks intertwined with
+                            structural
+                            integrity, product reliability, and the unpredictability of natural forces.
+                            Engineers are tasked with identifying potential failure modes, dissecting their root causes,
+                            and assessing the consequences they may incur. Methodologies such as Failure Mode and
+                            Effects Analysis (FMEA) are employed to evaluate and mitigate risks.
+                            The ultimate objective is to design structures and products capable of withstanding these
+                            risks,
+                            ensuring safety and reliability.</p>
+                        <p>Environmental Science: Environmental risks, in this arena, are intricately linked to the
+                            delicate
+                            equilibrium of our planet. Scientists in this field evaluate a vast spectrum of risks,
+                            from the contamination of air and water to the pressing threat of climate change.
+                            They employ intricate modeling and data analysis to foresee potential environmental impacts.
+                            Their insights steer policy decisions,
+                            advocate for sustainable practices, and propel environmental conservation efforts.</p>
+                        <p>Healthcare: Within the healthcare sphere, risks are intimately tied to patient well-being,
+                            medical procedures, and pharmaceutical interventions. Healthcare professionals harness
+                            evidence-based
+                            medicine and data-driven insights to minimize risks related to misdiagnosis, medical errors,
+                            surgical complications, and adverse drug reactions. Rigorous protocols and stringent quality
+                            standards are in place to enhance patient safety and the overall quality of healthcare
+                            delivery.</p>
+                        <p>Cybersecurity: As we traverse the digital age, cyber risks ascend to prominence.
+                            Cybersecurity experts are the guardians of our digital realm, eternally vigilant against
+                            threats such as data breaches, cyberattacks, and vulnerabilities in information security.
+                            They leverage cutting-edge technology, conduct comprehensive threat analyses, and implement
+                            advanced
+                            encryption techniques to safeguard the confidentiality, integrity, and availability of
+                            digital assets.
+                            The ever-evolving nature of technology necessitates constant adaptation and proactive risk
+                            management.</p>
+                        <p>Social Sciences: In the realm of social sciences,
+                            risks are often entwined with human behavior, culture, and societal dynamics.
+                            Sociologists and anthropologists delve into the intricacies of social
+                            factors that contribute to risks. They analyze community resilience, cultural practices,
+                            and social dynamics. Their insights inform strategies to address social risks and
+                            vulnerabilities,
+                            particularly in the context of disaster preparedness and response.</p>
+                        <p>Supply Chain Management: Risks in supply chains encompass disruptions in production and
+                            distribution. Supply chain experts evaluate risks that may arise from various sources,
+                            including geopolitical instability, natural disasters, and supply chain complexity. They
+                            employ risk assessment tools and strategies to enhance supply chain resilience and ensure
+                            business continuity.</p>
+                        <p>Now, let's move on to Part 3, where we unveil the common thread that ties these diverse risks
+                            and fields of study together, demonstrating the interdisciplinary nature of risk management.
+                        </p>
+                        <h3>Part 3: What Ties Them All Together</h3>
+                        <p>In our journey through the intricate landscape of risk management, we unearth a unifying
+                            thread that seamlessly weaves through the diverse tapestry of risks and fields of study—the
+                            interdisciplinary nature of risk management. This interconnectedness arises from the
+                            profound recognition that risks are not solitary entities, confined to specific domains.
+                            Instead, they transcend boundaries and permeate our lives, communities, and organizations in
+                            multifaceted ways. What binds them all together?</p>
+                        <p>Uncertainty: At the very heart of every risk lies the essence of uncertainty. Whether it's
+                            the turbulence of financial markets, the capriciousness of environmental outcomes, or the
+                            enigma of human behavior, the common thread is the inability to predict outcomes with
+                            unwavering certainty. This shared uncertainty compels professionals across domains to
+                            develop strategies, models, and frameworks to effectively manage and mitigate risks.</p>
+                        <p>Data and Analysis: The quest to comprehend and manage risks in different fields leans heavily
+                            on data and analysis. Whether it's financial data, environmental data, patient records, or
+                            cyber threat intelligence, information serves as the bedrock for risk assessment. Advanced
+                            statistical models, data analytics, and sophisticated simulations are deployed to gain
+                            insights into potential risks and their impacts.</p>
+                        <p>Risk Communication: Effectively communicating risks is a universal challenge. Whether
+                            conveying financial risks to investors, elucidating environmental risks to policymakers, or
+                            discussing healthcare risks with patients, clear and transparent communication reigns
+                            supreme. Communication experts and risk managers become the architects of strategies aimed
+                            at conveying risks comprehensibly, fostering understanding, and guiding informed
+                            decision-making.</p>
+                        <p>Risk Mitigation Strategies: While the nature of risks may differ, the objective remains
+                            constant across disciplines—risk mitigation. Whether it involves diversifying financial
+                            portfolios, implementing environmental conservation measures, enhancing patient safety
+                            protocols, or fortifying cybersecurity measures, the endgame is the same: reducing the
+                            likelihood and severity of adverse outcomes.</p>
+                        <p>Interdisciplinary Collaboration: Perhaps the most profound tie that binds these diverse
+                            fields is the spirit of interdisciplinary collaboration. Risk management thrives on the
+                            synergy of knowledge and expertise from various domains. Engineers collaborate with
+                            environmental scientists to evaluate the risks associated with changing climates. Healthcare
+                            professionals join forces with psychologists to comprehend patient decision-making.
+                            Policymakers consult financial experts to address economic risks. This collaborative
+                            approach amplifies our capacity to comprehensively address risks and make informed
+                            decisions.</p>
+                        <p>In these reflections, we've glimpsed the intricate world of risk management, where
+                            uncertainty thrives, data guides decisions, and collaboration bridges disciplines. As we
+                            navigate the labyrinth of risks, one thing remains crystal clear—the interdisciplinary
+                            nature of risk management is not a choice but a necessity. It is the compass that guides us
+                            through the uncharted territories of uncertainty, ensuring that we navigate the complex
+                            landscape of risk with knowledge, resilience, and shared understanding.</p>
+                        <nav aria-label="pagination" class="pagination">
+
+
+                            
+                            <div style="display: none;">
+                                <p style="font-weight: bold;">Previous</p>
+                                <a href="#" class="pagination-btn" aria-label="previous page" >
+                                    <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                            <!-- <a href="#" class="pagination-btn">1</a>
+                            <a href="#" class="pagination-btn">2</a>
+                            <a href="#" class="pagination-btn">3</a> -->
+                            <!-- <a href="#" class="pagination-btn" aria-label="more page">...</a> -->
+                            <div>
+                                <p style="font-weight: bold;">Next</p>
+                                <a href="../post2/post1.html" class="pagination-btn" aria-label="next page">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+
+
+                        </nav>
+
+                    </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer>
+        <div class="container">
+
+            <div class="card footer">
+
+                <div class="section footer-top">
+
+                    <div class="footer-list">
+
+                        <p class="footer-list-title">Newsletter</p>
+
+                        <p class="footer-text">
+                            Sign up to be first to receive the latest stories inspiring us, case studies, and industry
+                            news.
+                        </p>
+
+                        <div class="input-wrapper">
+                            <input type="text" name="name" placeholder="Your name" required class="input-field"
+                                autocomplete="off">
+
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <input type="email" name="email_address" placeholder="Emaill address" required
+                                class="input-field" autocomplete="off">
+
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">
+                            <span class="span">Get Notification</span>
+
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+
+                    <p class="copyright">
+                        &copy; Developed by <a href="#" class="copyright-link">Hieu</a>
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+
+                                <span class="span">Twitter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+
+                                <span class="span">LinkedIn</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+
+                                <span class="span">Instagram</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+
+    <script src="../../assets/js/script.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

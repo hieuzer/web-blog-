@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Hieu - Personal Blog Website</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html made by Hieu">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../../../assets//images/hero-banner.png">
+  <link rel="preload" as="image" href="../../../assets//images/pattern-2.svg">
+  <link rel="preload" as="image" href="../../../assets//images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!-- <img src="../../../assets//images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+        <div style="font-size: larger;">Hieu's Blog</div>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <!-- <img src="../../../assets//images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Posts</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>About</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright-text">
+          Copyright 2023 © Hieu - Personal Blog Template.
+          Developed by Hieu
+        </p>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Hieu</span>
+            </h1>
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="../../../assets//images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="../../../assets//images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="../../../assets//images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="../../../assets//images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Featured</span>
+          </h2>
+
+          <p class="section-text">
+            Featured 
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="../../../assets//images/featured-1.png" width="1602" height="903" loading="lazy"
+                    alt="Unlocking the Power of Interdisciplinary Risk Management: A Comprehensive Exploration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3">
+                    <a href="../../post1/post1.html" class="card-title hover-2">
+                      Unlocking the Power of Interdisciplinary Risk Management: A Comprehensive Exploration
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="../../../assets//images/author-1.png" width="48" height="48" loading="lazy" alt="Hieu"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Hieu</p>
+
+                        <p class="card-subtitle">10th Jul 2021</p>
+                      </div>
+                    </div>
+
+                    <a href="../../post1/post1.html" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="../../../assets//images/featured-2.png" width="1602" height="903" loading="lazy"
+                    alt="This time it's different" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3">
+                    <a href="../../post2/post1.html" class="card-title hover-2">
+                      This time it's different
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="../../../assets//images/author-1.png" width="48" height="48" loading="lazy" alt="Hieu"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Hieu</p>
+
+                        <p class="card-subtitle">1st Jul 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="../../post2/post1.html" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="../../../assets//images/featured-3.png" width="1602" height="903" loading="lazy"
+                    alt="The salmon mindset to investing" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3">
+                    <a href="../../post3/post1.html" class="card-title hover-2">
+                      The salmon mindset to investing
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="../../../assets//images/author-1.png" width="48" height="48" loading="lazy" alt="Hieu"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Hieu</p>
+
+                        <p class="card-subtitle">15th Jun 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="../../post3/post1.html" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="../../../assets//images/featured-4.png" width="1602" height="903" loading="lazy"
+                    alt="The Ellsberg Paradox, Decision Making in the Stock Market, and Tendencies of Human Errors" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  
+
+                  <h3 class="headline headline-3">
+                    <a href="../../post4/post1.html" class="card-title hover-2">
+                      The Ellsberg Paradox, Decision Making in the Stock Market, and Tendencies of Human Errors
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="../../../assets//images/author-1.png" width="48" height="48" loading="lazy" alt="Hieu"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Hieu</p>
+
+                        <p class="card-subtitle">20th Jun 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="../../post4/post1.html" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="../../../assets//images/featured-5.png" width="1602" height="903" loading="lazy"
+                    alt="The Commodification of Culture" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  
+
+                  <h3 class="headline headline-3">
+                    <a href="../../post5/post1.html" class="card-title hover-2">
+                      The Commodification of Culture
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="../../../assets//images/author-1.png" width="48" height="48" loading="lazy" alt="Hieu"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Hieu</p>
+
+                        <p class="card-subtitle">30th May 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="../../post5/post1.html" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#recent" class="btn btn-secondary">
+            <span class="span">Show More Posts</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="../../../assets//images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+      
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">All posts</span>
+            </h2>
+
+            <p class="section-text">
+              Don't miss the latest posts
+            </p>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="../../../assets//images/recent-post-3.jpg" width="271" height="258" loading="lazy"
+                      alt="Unlocking the Power of Interdisciplinary Risk Management: A Comprehensive Exploration" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a class="card-badge">Myblog</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="../../post1/post1.html" class="link hover-2">Unlocking the Power of Interdisciplinary Risk Management: A Comprehensive Exploration</a>
+                    </h3>
+
+                    <p class="card-text">
+                      In the grand tapestry of human existence, risk is the unrelenting 
+                      companion that shapes our decisions, defines our actions, and ultimately molds our future. 
+                      
+                    </p>
+
+                    
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="../../../assets//images/recent-post-4.jpg" width="271" height="258" loading="lazy"
+                      alt="This time it's different" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a class="card-badge">Myblog</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="../../post2/post1.html" class="link hover-2">This time it's different</a>
+                    </h3>
+
+                    <p class="card-text">
+                      "This time is different," the seemingly ordinary four-word sentence, 
+                      is weirdly considered by Templeton as the most dangerous saying from any investor. 
+                      Templeton is no typical investor either
+                    </p>
+
+                    
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="../../../assets//images/recent-post-5.jpg" width="271" height="258" loading="lazy"
+                      alt="The salmon mindset to investing" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a class="card-badge">Myblog</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="../../post3/post1.html" class="link hover-2">The salmon mindset to investing</a>
+                    </h3>
+
+                    <p class="card-text">
+                      When mentioning the life cycle of a salmon, 
+                      people often tie its association with the story of a hardworking mentality 
+                      and aversion against all odds. 
+                      
+                    </p>
+
+                    
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <nav aria-label="pagination" class="pagination">
+
+              <!-- <a href="#" class="pagination-btn" aria-label="previous page">
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </a> -->
+
+              <a href="../page1/page1.html" class="pagination-btn">1</a>
+              <a href="../page2/page2.html" class="pagination-btn">2</a>
+              <a href="../page3/page3.html" class="pagination-btn">3</a>
+              <!-- <a href="#" class="pagination-btn" aria-label="more page">...</a> -->
+
+              <!-- <a href="#" class="pagination-btn" aria-label="next page">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a> -->
+
+            </nav>
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Popular Posts</span>
+              </h3>
+
+              <ul class="popular-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <!-- <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="../../../assets//images/popular-post-1.jpg" width="64" height="64" loading="lazy"
+                        alt="Creating is a privilege but it’s also a gift" class="img-cover">
+                    </figure> -->
+
+                    <div class="card-content posts-for-popular">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="../../post1/post1.html" class="link hover-2">Unlocking the Power of Interdisciplinary Risk Management: A Comprehensive Exploration</a>
+                      </h4>
+                      <div style="margin-bottom: 10px;"></div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <!-- <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="../../../assets//images/popular-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure> -->
+
+                    <div class="card-content posts-for-popular">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="../../post2/post1.html" class="link hover-2">This time it's different</a>
+                      </h4>
+                      <div style="margin-bottom: 10px;"></div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <!-- <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="../../../assets//images/popular-post-3.jpg" width="64" height="64" loading="lazy"
+                        alt="Every day, in every city and town across the country" class="img-cover">
+                    </figure> -->
+
+                    <div class="card-content posts-for-popular">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="../../post3/post1.html" class="link hover-2">The salmon mindset to investing</a>
+                      </h4>
+                      <div style="margin-bottom: 10px;"></div>
+                      
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <!-- <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="../../../assets//images/popular-post-4.jpg" width="64" height="64" loading="lazy"
+                        alt="Your voice, your mind, your story, your vision" class="img-cover">
+                    </figure> -->
+
+                    <div class="card-content posts-for-popular">
+
+                      <h4 class="headline headline-4 card-title" >
+                        <a href="../../post4/post1.html" class="link hover-2">The Ellsberg Paradox, Decision Making in the Stock Market, and Tendencies of Human Errors</a>
+                      </h4>
+                      <div style="margin-bottom: 10px;"></div>
+                      
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <!-- <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="../../../assets//images/popular-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="Being unique is better than being perfect" class="img-cover">
+                    </figure> -->
+
+                    <div class="card-content posts-for-popular">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="../../post5/post1.html" class="link hover-2">The Commodification of Culture</a>
+                      </h4>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+
+            <div class="card aside-card insta-card">
+
+
+              <p class="card-text">
+                Follow us on instagram
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-1.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-2.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-3.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-4.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-5.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-6.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-7.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-8.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="../../../assets//images/insta-post-9.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Get Notification</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Hieu</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../../../assets//js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

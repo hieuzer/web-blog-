@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Hieu - Personal Blog Website</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html made by Hieu">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../../assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="../../assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="../../assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+        <div style="font-size: larger;">Hieu's Blog</div>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <!-- <img src="../../assets/images/logo.svg" width="119" height="37" alt="Wren logo"> -->
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="../../index.html" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>About</a>
+          </li>
+
+        </ul>
+
+        <p class="copyright-text">
+          Copyright 2023 © Hieu - Personal Blog Template.
+          Developed by Hieu
+        </p>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Hieu</span>
+            </h1>
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="../../assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="../../assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="../../assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="../../assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">
+                "Everything is priced in"</span>
+            </h2>
+            <p>The financial markets are a vast and intricate landscape where participants seek opportunities amidst a
+              sea of information. Central to this domain is the belief that the market is a repository of collective
+              wisdom, rapidly incorporating all available information into asset prices. This essay embarks on a
+              profound exploration of these interwoven concepts. We will delve into their theoretical foundations,
+              ponder their implications for market participants, and scrutinize the complex dynamics of information flow
+              and market efficiency. By the end of this journey, we aim to gain a deep appreciation for the profound
+              insights and sometimes enigmatic judgment of the market.</p>
+            <h3>The Core of Market Efficiency</h3>
+            <p>At the heart of this exploration lies the Efficient Market Hypothesis (EMH), an enduring theory in
+              finance. The EMH posits that financial markets are efficient, and asset prices reflect all available
+              information. To grasp this notion fully, it is imperative to understand the three primary forms of the
+              EMH:
+            </p>
+            <p>- Weak Efficiency: In weakly efficient markets, current asset prices already contain past price and
+              volume data. This implies that relying solely on historical data or technical analysis is unlikely to
+              yield consistent excess returns.
+            </p>
+            <p>- Semi-Strong Efficiency: Semi-strong efficiency advances this idea, suggesting that all publicly
+              available information, from news to financial reports and economic data, is already embedded in asset
+              prices. Consequently, neither technical analysis nor fundamental analysis can consistently outperform the
+              market.
+            </p>
+            <p>- Strong Efficiency: The strongest form of EMH asserts that all information, whether public or private,
+              is already accounted for in asset prices. Even insider information would not provide an advantage, as it
+              would have already influenced current prices.</p>
+            <p>The belief that the market reflects all information and swiftly adjusts to it aligns mainly with the
+              semi-strong and strong forms of EMH. It implies that market prices are not only reflective of historical
+              data and publicly available information but also anticipatory of future events, based on the collective
+              knowledge of all market participants.
+            </p>
+            <h3>The Market's Collective Wisdom</h3>
+            <p>The idea that the market possesses an uncanny level of foresight and collective wisdom suggests that the
+              collective judgment of market participants transcends individual expertise or information advantages.</p>
+            <p>Imagine a bustling marketplace where traders are like puzzle solvers, each holding a unique piece of a
+              massive jigsaw puzzle. Individually, they can only decipher a portion of the puzzle. However, when they
+              converge in the marketplace, the puzzle pieces fit together seamlessly, revealing the complete picture.
+              This embodies the concept that the market's wisdom emerges from the collective efforts of its
+              participants.</p>
+            <h3>Implications for Market Participants</h3>
+            <p>Understanding the implications of market efficiency and the market's collective wisdom is essential for
+              market participants. These concepts offer valuable insights that can guide decision-making and strategies.
+            </p>
+            <p>The Challenge of Outperforming the Market: If we accept the idea that the market is highly efficient and
+              continually adjusts to new information, the path to consistently outperforming the market becomes
+              exceedingly challenging. Attempts to gain an edge through analysis of publicly available information or
+              historical data may yield limited success, but sustaining an advantage becomes elusive.</p>
+            <p>The Passive vs. Active Dilemma: The concepts underpin the ongoing debate between passive and active
+              investing. Passive strategies, like index funds, assume market efficiency and aim to replicate market
+              returns. Conversely, active investors believe that diligent research and astute execution can identify
+              opportunities that diverge from the market's collective wisdom.
+            </p>
+            <p>Market Reaction to Information Releases: In a market where information is swiftly incorporated into
+              prices, the reaction to new information is rapid and often leads to immediate price adjustments. Traders
+              aiming to profit from delayed responses face significant challenges, as markets react promptly and
+              efficiently.
+            </p>
+            <h3>Information Flow and Market Efficiency
+            </h3>
+            <p>To appreciate the depth of market efficiency and the market's collective wisdom, we must examine the
+              intricate dynamics of information flow and market processes. In a world where information travels at the
+              speed of light, the market's ability to swiftly assimilate and process data is nothing short of
+              astonishing.
+            </p>
+            <p>Imagine a vast network of interconnected communication channels, much like a global web. Each channel
+              represents a source of information, from financial news outlets to corporate earnings reports and
+              government releases. In this network, information flows instantaneously, transcending borders and time
+              zones. It is the collective assimilation and interpretation of this information that drive market prices.
+            </p>
+            <h3>The Role of Market Participants</h3>
+            <p>Market participants, from individual traders to institutional investors, are central to this information
+              flow. They act as messengers and interpreters of a complex language spoken by the market. Their actions,
+              decisions, and strategies are the conduits through which information is conveyed and processed.
+            </p>
+            <p>Consider a bustling marketplace where traders communicate through a universal language of buying and
+              selling. Each transaction is a message that carries information—a buy order signaling optimism, a sell
+              order indicating caution. Market participants, through their actions, contribute to the ongoing dialogue
+              of the marketplace. Their collective decisions shape the market's sentiment and, consequently, asset
+              prices.
+            </p>
+            <h3>Market Inefficiencies: The Realities Amidst the Ideal</h3>
+            <p>While market efficiency and the market's collective wisdom represent idealized views of market behavior,
+              the reality is often a mix of efficiency and inefficiency. Market participants are not infallible, and
+              behavioral biases can introduce imperfections into the market's collective judgment.
+            </p>
+            <p>Consider a vast mosaic made up of countless individual tiles, each representing a market participant's
+              view of an asset's value. While these tiles collectively create a coherent picture, there are occasional
+              gaps, overlaps, or mismatches between them. These gaps represent market inefficiencies, moments when the
+              market's collective wisdom falters.
+
+            </p>
+            <h3>Behavioral Biases: Imperfections in the Market</h3>
+            <p>Behavioral biases, rooted in human psychology, are one of the key drivers of market inefficiencies. These
+              biases lead to deviations from rational decision-making and can result in mispricing of assets.
+            </p>
+            <p>Consider the impact of overconfidence, a common bias among traders and investors. It distorts perceptions
+              and leads individuals to overestimate their abilities, much like a mirage in the desert. In the context of
+              market efficiency, overconfidence can lead market participants to trade on unwarranted certainty, creating
+              imbalances in asset prices.
+
+            </p>
+            <p>Another powerful bias is herding behavior, where individuals follow the crowd rather than engaging in
+              independent analysis. This is akin to a flock of birds in flight, moving in unison without any one bird
+              taking the lead. In the market, herding behavior can lead to exaggerated price movements as participants
+              collectively rush in one direction, amplifying trends and potentially creating bubbles or crashes.
+            </p>
+            <h3>The Arbitrageur's Pursuit: Exploiting Inefficiency</h3>
+            <p>
+              Despite the market's remarkable efficiency, the pursuit of arbitrage opportunities is a testament to the
+              persistence of inefficiencies. Arbitrageurs are like skilled artisans who carefully chisel away at
+              imperfections in a sculpture, refining it until it achieves its ideal form.
+            </p>
+            <p>Consider a market where two identical assets are momentarily priced differently due to a
+              misinterpretation of information. An arbitrageur steps in, buying the undervalued asset and simultaneously
+              selling the overvalued one. This process continues until the prices align, illustrating that even in
+              highly efficient markets, inefficiencies may persist, if only briefly.
+
+            </p>
+            <nav aria-label="pagination" class="pagination">
+
+
+
+              <div>
+                <p style="font-weight: bold;">Previous</p>
+                <a href="../post11/post1.html" class="pagination-btn" aria-label="previous page">
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+              <!-- <a href="#" class="pagination-btn">1</a>
+                            <a href="#" class="pagination-btn">2</a>
+                            <a href="#" class="pagination-btn">3</a> -->
+              <!-- <a href="#" class="pagination-btn" aria-label="more page">...</a> -->
+              <div style="font-weight: bold; display: none;">
+                <p style="font-weight: bold;">Next</p>
+                <a href="../post12/post1.html" class="pagination-btn" aria-label="next page">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+
+            </nav>
+
+          </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry
+              news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Get Notification</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Hieu</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+
+  <script src="../../assets/js/script.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
